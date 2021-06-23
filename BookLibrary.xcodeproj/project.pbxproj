@@ -11,6 +11,18 @@
 		4EBB36E52683F2A400A3B3E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB36E42683F2A400A3B3E6 /* ContentView.swift */; };
 		4EBB36E72683F2A600A3B3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBB36E62683F2A600A3B3E6 /* Assets.xcassets */; };
 		4EBB36EA2683F2A600A3B3E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBB36E92683F2A600A3B3E6 /* Preview Assets.xcassets */; };
+		4EBB36F22683F3CC00A3B3E6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBB36F12683F3CC00A3B3E6 /* FirebaseAnalytics */; };
+		4EBB36F42683F3CC00A3B3E6 /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBB36F32683F3CC00A3B3E6 /* FirebaseAnalyticsSwift-Beta */; };
+		4EBB36F62683F3CC00A3B3E6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBB36F52683F3CC00A3B3E6 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		4EBB36F82683F3CC00A3B3E6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBB36F72683F3CC00A3B3E6 /* FirebaseAuth */; };
+		4EBB36FA2683F3CC00A3B3E6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBB36F92683F3CC00A3B3E6 /* FirebaseFirestore */; };
+		4EBB36FC2683F3CC00A3B3E6 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBB36FB2683F3CC00A3B3E6 /* FirebaseFirestoreSwift-Beta */; };
+		4EBB36FE2683F3CC00A3B3E6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBB36FD2683F3CC00A3B3E6 /* FirebaseStorage */; };
+		4EBB37002683F3CC00A3B3E6 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBB36FF2683F3CC00A3B3E6 /* FirebaseStorageSwift-Beta */; };
+		4EBB37022683F4EC00A3B3E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EBB37012683F4EC00A3B3E6 /* GoogleService-Info.plist */; };
+		4EBB37052683F55400A3B3E6 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB37042683F55400A3B3E6 /* Book.swift */; };
+		4EBB37092683F5E300A3B3E6 /* BooksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB37082683F5E300A3B3E6 /* BooksListView.swift */; };
+		4EBB370B2683F6B300A3B3E6 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB370A2683F6B300A3B3E6 /* BooksViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,10 @@
 		4EBB36E42683F2A400A3B3E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4EBB36E62683F2A600A3B3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EBB36E92683F2A600A3B3E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4EBB37012683F4EC00A3B3E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4EBB37042683F55400A3B3E6 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		4EBB37082683F5E300A3B3E6 /* BooksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListView.swift; sourceTree = "<group>"; };
+		4EBB370A2683F6B300A3B3E6 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBB36F42683F3CC00A3B3E6 /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				4EBB36F62683F3CC00A3B3E6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				4EBB36F22683F3CC00A3B3E6 /* FirebaseAnalytics in Frameworks */,
+				4EBB36FC2683F3CC00A3B3E6 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				4EBB36FE2683F3CC00A3B3E6 /* FirebaseStorage in Frameworks */,
+				4EBB37002683F3CC00A3B3E6 /* FirebaseStorageSwift-Beta in Frameworks */,
+				4EBB36FA2683F3CC00A3B3E6 /* FirebaseFirestore in Frameworks */,
+				4EBB36F82683F3CC00A3B3E6 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +75,13 @@
 		4EBB36E12683F2A400A3B3E6 /* BookLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				4EBB37032683F54700A3B3E6 /* Model */,
+				4EBB37072683F5CE00A3B3E6 /* ViewModel */,
+				4EBB37062683F5C800A3B3E6 /* View */,
 				4EBB36E22683F2A400A3B3E6 /* BookLibraryApp.swift */,
 				4EBB36E42683F2A400A3B3E6 /* ContentView.swift */,
 				4EBB36E62683F2A600A3B3E6 /* Assets.xcassets */,
+				4EBB37012683F4EC00A3B3E6 /* GoogleService-Info.plist */,
 				4EBB36E82683F2A600A3B3E6 /* Preview Content */,
 			);
 			path = BookLibrary;
@@ -65,6 +93,30 @@
 				4EBB36E92683F2A600A3B3E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4EBB37032683F54700A3B3E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB37042683F55400A3B3E6 /* Book.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4EBB37062683F5C800A3B3E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB37082683F5E300A3B3E6 /* BooksListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4EBB37072683F5CE00A3B3E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB370A2683F6B300A3B3E6 /* BooksViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +135,16 @@
 			dependencies = (
 			);
 			name = BookLibrary;
+			packageProductDependencies = (
+				4EBB36F12683F3CC00A3B3E6 /* FirebaseAnalytics */,
+				4EBB36F32683F3CC00A3B3E6 /* FirebaseAnalyticsSwift-Beta */,
+				4EBB36F52683F3CC00A3B3E6 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				4EBB36F72683F3CC00A3B3E6 /* FirebaseAuth */,
+				4EBB36F92683F3CC00A3B3E6 /* FirebaseFirestore */,
+				4EBB36FB2683F3CC00A3B3E6 /* FirebaseFirestoreSwift-Beta */,
+				4EBB36FD2683F3CC00A3B3E6 /* FirebaseStorage */,
+				4EBB36FF2683F3CC00A3B3E6 /* FirebaseStorageSwift-Beta */,
+			);
 			productName = BookLibrary;
 			productReference = 4EBB36DF2683F2A400A3B3E6 /* BookLibrary.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +173,9 @@
 				Base,
 			);
 			mainGroup = 4EBB36D62683F2A400A3B3E6;
+			packageReferences = (
+				4EBB36F02683F3CC00A3B3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4EBB36E02683F2A400A3B3E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +192,7 @@
 			files = (
 				4EBB36EA2683F2A600A3B3E6 /* Preview Assets.xcassets in Resources */,
 				4EBB36E72683F2A600A3B3E6 /* Assets.xcassets in Resources */,
+				4EBB37022683F4EC00A3B3E6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +205,9 @@
 			files = (
 				4EBB36E52683F2A400A3B3E6 /* ContentView.swift in Sources */,
 				4EBB36E32683F2A400A3B3E6 /* BookLibraryApp.swift in Sources */,
+				4EBB37052683F55400A3B3E6 /* Book.swift in Sources */,
+				4EBB370B2683F6B300A3B3E6 /* BooksViewModel.swift in Sources */,
+				4EBB37092683F5E300A3B3E6 /* BooksListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +412,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4EBB36F02683F3CC00A3B3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4EBB36F12683F3CC00A3B3E6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBB36F02683F3CC00A3B3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		4EBB36F32683F3CC00A3B3E6 /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBB36F02683F3CC00A3B3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		4EBB36F52683F3CC00A3B3E6 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBB36F02683F3CC00A3B3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		4EBB36F72683F3CC00A3B3E6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBB36F02683F3CC00A3B3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4EBB36F92683F3CC00A3B3E6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBB36F02683F3CC00A3B3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4EBB36FB2683F3CC00A3B3E6 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBB36F02683F3CC00A3B3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		4EBB36FD2683F3CC00A3B3E6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBB36F02683F3CC00A3B3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		4EBB36FF2683F3CC00A3B3E6 /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBB36F02683F3CC00A3B3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4EBB36D72683F2A400A3B3E6 /* Project object */;
 }

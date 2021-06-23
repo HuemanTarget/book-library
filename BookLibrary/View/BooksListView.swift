@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BooksListView: View {
   @ObservedObject var booksVM = BooksViewModel()
-  var books = testData
+//  var books = testData
   
   var body: some View {
     NavigationView {

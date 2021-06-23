@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct BooksListView: View {
+  @ObservedObject var booksVM = BooksViewModel()
   var books = testData
   
   var body: some View {
     NavigationView {
-      List(books) { book in
+      List(booksVM.books) { book in
         VStack(alignment: .leading) {
           Text(book.title)
             .font(.headline)
@@ -23,6 +24,9 @@ struct BooksListView: View {
         }
       }
       .navigationBarTitle("Books")
+      .onAppear() {
+        self.booksVM.fetchData()
+      }
     }
   }
 }

@@ -23,6 +23,9 @@
 		4EBB37052683F55400A3B3E6 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB37042683F55400A3B3E6 /* Book.swift */; };
 		4EBB37092683F5E300A3B3E6 /* BooksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB37082683F5E300A3B3E6 /* BooksListView.swift */; };
 		4EBB370B2683F6B300A3B3E6 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB370A2683F6B300A3B3E6 /* BooksViewModel.swift */; };
+		4EBB370D26862CBA00A3B3E6 /* BookEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB370C26862CB900A3B3E6 /* BookEditView.swift */; };
+		4EBB370F26862E9700A3B3E6 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB370E26862E9700A3B3E6 /* BookViewModel.swift */; };
+		4EBB37122686337900A3B3E6 /* AddBookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB37112686337900A3B3E6 /* AddBookButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		4EBB37042683F55400A3B3E6 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		4EBB37082683F5E300A3B3E6 /* BooksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListView.swift; sourceTree = "<group>"; };
 		4EBB370A2683F6B300A3B3E6 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		4EBB370C26862CB900A3B3E6 /* BookEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEditView.swift; sourceTree = "<group>"; };
+		4EBB370E26862E9700A3B3E6 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		4EBB37112686337900A3B3E6 /* AddBookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 		4EBB36E12683F2A400A3B3E6 /* BookLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				4EBB37102686336B00A3B3E6 /* Helpers */,
 				4EBB37032683F54700A3B3E6 /* Model */,
 				4EBB37072683F5CE00A3B3E6 /* ViewModel */,
 				4EBB37062683F5C800A3B3E6 /* View */,
@@ -107,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				4EBB37082683F5E300A3B3E6 /* BooksListView.swift */,
+				4EBB370C26862CB900A3B3E6 /* BookEditView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,8 +123,17 @@
 			isa = PBXGroup;
 			children = (
 				4EBB370A2683F6B300A3B3E6 /* BooksViewModel.swift */,
+				4EBB370E26862E9700A3B3E6 /* BookViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4EBB37102686336B00A3B3E6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB37112686337900A3B3E6 /* AddBookButton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,10 +221,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EBB36E52683F2A400A3B3E6 /* ContentView.swift in Sources */,
+				4EBB370F26862E9700A3B3E6 /* BookViewModel.swift in Sources */,
 				4EBB36E32683F2A400A3B3E6 /* BookLibraryApp.swift in Sources */,
 				4EBB37052683F55400A3B3E6 /* Book.swift in Sources */,
 				4EBB370B2683F6B300A3B3E6 /* BooksViewModel.swift in Sources */,
 				4EBB37092683F5E300A3B3E6 /* BooksListView.swift in Sources */,
+				4EBB37122686337900A3B3E6 /* AddBookButton.swift in Sources */,
+				4EBB370D26862CBA00A3B3E6 /* BookEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

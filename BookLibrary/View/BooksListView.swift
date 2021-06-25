@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct BooksListView: View {
-  @ObservedObject var booksVM = BooksViewModel()
+  @StateObject var booksVM = BooksViewModel()
+  @State var presentationAddBookSheet: Bool = false
 //  var books = testData
   
   var body: some View {
@@ -24,6 +25,12 @@ struct BooksListView: View {
         }
       }
       .navigationBarTitle("Books")
+      .navigationBarItems(trailing: AddBookButton() {
+        self.presentationAddBookSheet.toggle()
+      })
+      .sheet(isPresented: self.$presentationAddBookSheet) {
+        BookEditView()
+      }
       .onAppear() {
         self.booksVM.fetchData()
       }
